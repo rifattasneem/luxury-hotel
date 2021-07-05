@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/themify-icons.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/gijgo/gijgo.min.css"/> <!-- datepicker -->
+    <link rel="stylesheet" href="assets/hamburger-menu/hamburger-menu.css">
+    <link rel="stylesheet" href="assets/wow/animate.css">
+    <link rel="stylesheet" href="assets/animate/animate.min.css">
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="shortcut icon" href="image/favicon.png">
+    <title>Keys Please</title>
+
+  </head>
+<body>
+  <!-- header start -->
+ <header>
+  <div class="container-fluid">
+    <nav class="navbar fixed-top px-2 h-navbar">
+      <a class="logo" href="index.html">
+        <img src="image/LOGO.png" class="img-fluid" alt="logo">
+      </a>
+      <p class="phone d-sm-block d-none"><i class="fas fa-phone-alt"></i> +9714-421-4988</p>
+      
+      <button class="hamburger-button"></button>
+
+      <nav class="hamburger-nav d-flex justify-content-center align-items-center">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="rooms.html">ROOMS</a></li>
+          <li><a href="search.html">SEARCHROOMS</a></li>
+          <li><a href="cart.html">CART</a></li>
+          <li><a href="checkout.html">CHECKOUT</a></li>
+          <li class="d-sm-none"><a href="#"><p><i class="fas fa-phone-alt"></i> +9714-421-4988</p></a></li>
+        </ul>
+      </nav>
+    </nav>
+    
+  </div>
+ </header>
+ <!-- header end -->
+
+  <!-- cart table start -->
+  <section class="cart">
+    <div class="container custom-cont">
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="c-h1">Check out</h1>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-lg-12">
+
+          <table>
+            <tr>
+              <th></th>
+              <th>Room type</th>
+              <th>Capacity</th> 
+              <th>Quantity</th>
+              <th>Check in</th>
+              <th>Check - out</th>
+              <th>Night</th>
+              <th>Gross total</th>
+            </tr>
+            <tr>
+              <td><i class="fas fa-times close"></i></td>
+              <td>Double Room 2</td>
+              <td>2 adults</td>
+              <td>1</td>
+              <td>November 23, 2029</td>
+              <td>November 29, 2019</td>
+              <td>6</td>
+              <td>$480.00</td>
+            </tr>
+            <tr>
+              <td colspan="4" class="text-start" style="border: none;">Subtotal</td>
+              <td colspan="4" class="text-end" style="border: none;">$480.00</td>
+            </tr>
+            <tr style="border: 0.3px solid #939393;">
+              <td colspan="4" class="text-start" style="border: none;">Tax</td>
+              <td colspan="4" class="text-end" style="border: none;">$50.00</td>
+            </tr>
+            <tr style="border: 0.3px solid #939393;">
+              <td colspan="4" class="text-start" style="border: none;">Grand Total</td>
+              <td colspan="4" class="text-end" style="border: none;">$530.00</td>
+            </tr>
+          </table>
+          
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="c-h1 mt-5 mb-3">Customer Details</h1>
+        </div>
+      </div>
+
+      <form class="row needs-validation">
+          <div class="col-lg-12 mb-5">
+            <div class="row g-5">
+
+              <div class="col-lg-6">
+                <div class="mb-4">
+                  <label for="f-name" class="form-label text-uppercase">First name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control f-name" id="f-name" name="f-name" required>
+                </div>
+                <div class="mb-4">
+                  <label for="l-name" class="form-label text-uppercase">Last name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control l-name" id="l-name" name="l-name" required>
+                </div>
+                <div class="mb-4">
+                  <label for="address" class="form-label text-uppercase">Address <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control address" id="address" name="address" required>
+                </div>
+                <div class="mb-4">
+                  <label for="city" class="form-label text-uppercase">City <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control city" id="city" name="city" required>
+                </div>
+                <div class="mb-4">
+                  <label for="state" class="form-label text-uppercase">State <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control state" id="state" name="state" required>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="mb-4">
+                    <label for="p-code" class="form-label text-uppercase">Postal Code <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control p-code" id="p-code" name="p-code" required>
+                  </div>
+                  <div class="mb-4">
+                    <label for="country" class="form-label text-uppercase">Country <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control country" id="country" name="country" required>
+                  </div>
+                  <div class="mb-4">
+                    <label for="email" class="form-label text-uppercase">Email <span class="text-danger">*</span></label>
+                    <input type="email" class="form-control email" id="email" name="email" required>
+                  </div>
+                  <div class="mb-4">
+                    <label for="p-number" class="form-label text-uppercase">Phone <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control p-number" id="p-number" name="p-number" required>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-12 mb-5">
+            <label for="radio-btn" class="mb-2">Payment Method</label>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="radio-btn" id="radio-btn" required>
+            <label class="form-check-label" for="radio-btn"><strong>Offline Payment</strong></label>
+          </div>
+          </div>
+
+          <div class="col-lg-12 mb-5">
+            <label for="add-text" class="mb-2">Additional information</label>
+            <textarea class="form-control add-text" id="add-text" rows="5"></textarea>
+          </div>
+          
+  
+        <div class="col-lg-12 mb-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              I agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12">
+          <a href="checkout.html" class="btn btn-custom-cart s-p">checkout</a>
+        </div>
+      </form>
+      
+    </div>
+  </section>
+
+  <!-- cart table end -->
+
+    <!-- footer starts -->
+    <footer>
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-5 col-sm-6 col-11">
+            <h2 class="f-h2 text-center mb-4">Follow Us:</h2>
+
+            <div class="row justify-content-between mb-5">
+              <div class="col">
+                <i class="fab fa-facebook-f d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-twitter d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-instagram d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-linkedin-in d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-pinterest-p d-flex justify-content-center f-icon"></i>
+              </div>
+            </div>
+
+            <p class="f-p text-center">Copyright © 2021 | All rights reserved.</p>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- footer ends -->
+    
+
+  <!-- JS -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+
+  <script src="assets/gijgo/gijgo.min.js"></script> <!-- datepicker --> 
+
+  <script src="assets/hamburger-menu/hamburger-menu.js"></script>
+  <script src="assets/wow/wow.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+</html> 

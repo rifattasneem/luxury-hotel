@@ -1,0 +1,44 @@
+
+/* CSS Document */
+
+.hamburger-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1002;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  outline: none;
+}
+.hamburger-button svg {
+  height: 25px; /* autoではなく同じ数字で */
+  width: 25px; /* autoではなく同じ数字で */
+}
+.hamburger-button path {
+  fill: #000;
+}
+.hamburger-nav {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1001;
+  padding: 20px;
+  display: none;
+}
+#hamburger-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1000;
+}

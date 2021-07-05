@@ -1,0 +1,1030 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/fonts/themify-icons.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/gijgo/gijgo.min.css"/> <!-- datepicker -->
+    <link rel="stylesheet" href="assets/hamburger-menu/hamburger-menu.css">
+    <link rel="stylesheet" href="assets/wow/animate.css">
+    <link rel="stylesheet" href="assets/animate/animate.min.css">
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="shortcut icon" href="image/favicon.png">
+    <title>Keys Please</title>
+
+  </head>
+<body>
+  <!-- header start -->
+ <header>
+  <div class="container-fluid">
+    <nav class="navbar fixed-top px-2 h-navbar">
+      <a class="logo" href="index.html">
+        <img src="image/LOGO.png" class="img-fluid" alt="logo">
+      </a>
+      <p class="phone d-sm-block d-none"><i class="fas fa-phone-alt"></i> +9714-421-4988</p>
+      
+      <button class="hamburger-button"></button>
+
+      <nav class="hamburger-nav d-flex justify-content-center align-items-center">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="rooms.html">ROOMS</a></li>
+          <li><a href="search.html">SEARCHROOMS</a></li>
+          <li><a href="cart.html">CART</a></li>
+          <li><a href="checkout.html">CHECKOUT</a></li>
+          <li class="d-sm-none"><a href="#"><p><i class="fas fa-phone-alt"></i> +9714-421-4988</p></a></li>
+        </ul>
+      </nav>
+    </nav>
+    
+  </div>
+ </header>
+ <!-- header end -->
+
+ <!-- banner start -->
+ <section class="banner b-margin">
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-lg-12 px-0">
+         
+        <div id="car-controls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+
+            <div class="carousel-item car-item1 active">
+              <div class="row justify-content-center">
+                <div class="col-lg-7 col-sm-9 col-10">
+                  <h1 class="car-h1 text-center animate__animated animate__lightSpeedInRight">Luxury Hotel & Resort</h1>
+                  <p class="car-p text-center animate__animated animate__zoomIn">We have the perfect accommodation for you.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item car-item2">
+              <div class="row justify-content-center">
+                <div class="col-lg-7 col-sm-9 col-10">
+                  <h1 class="car-h1 text-center animate__animated animate__lightSpeedInRight">Luxury Hotel & Resort</h1>
+                  <p class="car-p text-center animate__animated animate__zoomIn">We have the perfect accommodation for you.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item car-item3">
+              <div class="row justify-content-center">
+                <div class="col-lg-7 col-sm-9 col-10">
+                  <h1 class="car-h1 text-center animate__animated animate__lightSpeedInRight">Luxury Hotel & Resort</h1>
+                  <p class="car-p text-center animate__animated animate__zoomIn">We have the perfect accommodation for you.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item car-item4">
+              <div class="row justify-content-center">
+                <div class="col-lg-7 col-sm-9 col-10">
+                  <h1 class="car-h1 text-center animate__animated animate__lightSpeedInRight">Luxury Hotel & Resort</h1>
+                  <p class="car-p text-center animate__animated animate__zoomIn">We have the perfect accommodation for you.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev car-prev d-none d-sm-block" type="button" data-bs-target="#car-controls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next car-next d-none d-sm-block" type="button" data-bs-target="#car-controls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+       </div>
+     </div>
+
+     
+     
+   </div>
+ </section>
+ <!-- banner end -->
+
+ <!-- booking start -->
+ <section class="room-book">
+ <div class="container">
+   <div class="row justify-content-center">
+   <div class="col-11">
+     <div class="booking">
+
+      <div class="row justify-content-center">
+        <div class="col-lg col-sm-6">
+          <p class="b-p">Arrival Date</p>
+          <input id="datepicker1">
+        </div>
+        <div class="col-lg col-sm-6">
+          <p class="b-p sm-bp">Departure Date</p>
+          <input id="datepicker2">
+        </div>
+        <div class="col-lg col-sm-6">
+          <p class="b-p sm-bp">Adults</p>
+          <div class="controlgroup">
+            <select id="person">
+              <option>Adults</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6">
+          <p class="b-p sm-bp">Children</p>
+          <div class="controlgroup">
+            <select id="person">
+              <option>Children</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-lg col-sm-12 d-flex align-items-center justify-content-center">
+          <button type="button" class="btn btn-custom1">check availability</button>
+        </div>
+      </div>  
+
+     </div>
+   </div>
+ </div>
+ </div>
+ </section>
+    <!-- booking end -->
+
+    <!-- Welcome start -->
+    <section class="welcome">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                
+                <h1 class="w-h1 text-center">welcome</h1>
+                <p class="w-p text-center">Staying in here doesn't have to cost a fortune. Book your stay with us and receive one of the lowest rates of any hostel in the city!</p>
+              </div>
+            </div>
+
+            <div class="row d-xl-block d-none">
+              <div class="col-lg-12">
+                
+                <div class="row">
+                  <div class="col-lg">
+                    
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <i class="fas fa-concierge-bell w-icon"></i>
+                      </div>
+                      <div class="col-lg-9">
+                        <h2 class="w-h2">mayfair hotel</h2>
+                        <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg">
+                    
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <i class="fas fa-bed w-icon"></i>
+                      </div>
+                      <div class="col-lg-9">
+                        <h2 class="w-h2">rooms</h2>
+                        <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg">
+                    
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <i class="fas fa-utensils w-icon"></i>
+                      </div>
+                      <div class="col-lg-9">
+                        <h2 class="w-h2">amenities</h2>
+                        <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg">
+                    
+                    <div class="row">
+                      <div class="col-lg-3">
+                        <i class="fas fa-swimmer w-icon"></i>
+                      </div>
+                      <div class="col-lg-9">
+                        <h2 class="w-h2">activities</h2>
+                        <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-xl-none text-center">
+              <div class="col-md">
+                  <i class="fas fa-concierge-bell w-icon mb-3"></i>
+                  <h2 class="w-h2">mayfair hotel</h2>
+                  <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+
+              <div class="col-md">
+                  <i class="fas fa-bed w-icon mb-3"></i>
+                  <h2 class="w-h2">rooms</h2>
+                  <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+
+              <div class="col-md">
+                  <i class="fas fa-utensils w-icon mb-3"></i>
+                  <h2 class="w-h2">amenities</h2>
+                  <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+
+              <div class="col-md">
+                  <i class="fas fa-swimmer w-icon mb-3"></i>
+                  <h2 class="w-h2">activities</h2>
+                  <p class="w-p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        
+    
+      </div>
+    </section>
+    <!-- Welcome end -->
+
+    <!-- Gallery starts -->
+    <section class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <h1 class="w-h1 text-center">gallery</h1>
+            <p class="w-p text-center">These are real photos from our customers</p>
+          </div>
+        </div>
+
+        <div class="g-photos">
+          <div class="row d-md-block d-none">
+            <div class="col-lg-12">
+              <div id="carControls" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="row justify-content-center">
+                  <div class="col-md-10">
+
+                    <!-- Carousel slider -->
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-8">
+                            <div class="item">
+                              <img src="image/car-gallery/item-1.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-md-12 mb-4">
+                                <div class="item">
+                                  <img src="image/car-gallery/item-2.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="item">
+                                  <img src="image/car-gallery/item-3.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="row">
+                              <div class="col-md-12 mb-4">
+                                <div class="item">
+                                  <img src="image/car-gallery/item-5.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="item">
+                                  <img src="image/car-gallery/item-3.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-8">
+                            <div class="item">
+                              <img src="image/car-gallery/item-4.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- Carousel slider -->
+
+                  </div>
+                </div>
+                
+                  <button class="carousel-control-prev car-prev" type="button" data-bs-target="#carControls" data-bs-slide="prev">
+                    <span class="ti-angle-left th-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next car-next" type="button" data-bs-target="#carControls" data-bs-slide="next">
+                    <span class="ti-angle-right th-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+          </div>
+
+          <!-- Carousel slider sm & col screen -->
+          <div class="row d-md-none d-sm-block">
+            <div class="col-12">
+              <div id="carControls2" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="row justify-content-center">
+                  <div class="col-9">
+
+                    <!-- Carousel slider -->
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <div class="item">
+                          <img src="image/car-gallery/item-1-sm.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                        </div>     
+                      </div>
+                      <div class="carousel-item">
+                        <div class="item">
+                          <img src="image/car-gallery/item-2.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                        </div>     
+                      </div>
+                      <div class="carousel-item">
+                        <div class="item">
+                          <img src="image/car-gallery/item-3.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                        </div>     
+                      </div>
+                      <div class="carousel-item">
+                        <div class="item">
+                          <img src="image/car-gallery/item-4-sm.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                        </div>     
+                      </div>
+                      <div class="carousel-item">
+                        <div class="item">
+                          <img src="image/car-gallery/item-5.jpg" class="img-fluid img-thumbnail" alt="gallery">
+                        </div>     
+                      </div>
+
+                      
+
+                    </div>
+                    <!-- Carousel slider -->
+
+                  </div>
+                </div>
+                
+                  <button class="carousel-control-prev car-prev" type="button" data-bs-target="#carControls2" data-bs-slide="prev">
+                    <span class="ti-angle-left th-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next car-next" type="button" data-bs-target="#carControls2" data-bs-slide="next">
+                    <span class="ti-angle-right th-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+            </div>
+          </div>
+
+          <!-- Carousel slider sm & col screen -->
+
+          <div class="row justify-content-center">
+            <div class="col-10">
+
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="g-fnote">
+                    <h2 class="g-h2">Mayfair Hotel in Coconut Grove</h2>
+                    <p class="w-p-2 g-p-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center">
+                  <button type="button" class="btn btn-custom2">view all</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+    <!-- Gallery ends -->
+
+    <!-- Video starts -->
+    <section class="video-sec">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-11">
+            
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-4 col-11">
+                
+                <h1 class="v-h1">Relax and forget about problems</h1>
+                <h3 class="v-h3">Save money on your travel by using our Group Travel Offer for the whole of your gang, and we'll even help you book and sit together</h3>
+                <p class="w-p-2 v-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <button type="button" class="btn btn-custom1 mt-4 d-lg-block d-none" style="width: 100%;">read more</button>
+            </div>
+            <div class="row d-lg-none justify-content-center">
+              <div class="col-md-4 col-sm-5 col-9">
+                <button type="button" class="btn btn-custom1 mt-md-3 mt-0" style="width: 100%;">read more</button>
+              </div>
+            </div>
+
+            <div class="offset-lg-1 col-lg-7 col-11">
+              <iframe class="video" src="https://www.youtube.com/embed/vhKM2nAHJ6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video ends -->
+
+    <!-- review starts -->
+    <section class="review">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-lg-11">
+
+            <div class="row justify-content-end">
+              <div class="col-lg-8 px-35p">
+                <div id="carControls3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item car-item5 active">
+                      <div class="row justify-content-center">
+                        <div class="col-10">
+                          <h1 class="car-h2 text-center mb-3">Patrick neilson</h1>
+                          <p class="car-p-2 text-center mb-4">We stayed at a Keys Please for 5 nights and enjoyed every moment of it. All the staff were extremely helpful, attentive and friendly. The room is modern, clean, spacious, and has nice amenities.</p>
+                        </div>
+                        <div class="col-10 d-flex justify-content-center">
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item car-item6">
+                      <div class="row justify-content-center">
+                        <div class="col-10">
+                          <h1 class="car-h2 text-center mb-3">Gunter</h1>
+                          <p class="car-p-2 text-center mb-4">Thanks once more for the good time. We stayed at a Keys Please for 5 nights and enjoyed every moment of it. All the staff were extremely helpful, attentive and friendly.The room is modern and clean.</p>
+                        </div>
+                        <div class="col-10 d-flex justify-content-center">
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                    </div>
+
+                    <button class="carousel-control-prev car-prev" type="button" data-bs-target="#carControls3" data-bs-slide="prev">
+                        <span class="ti-angle-left" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next car-next" type="button" data-bs-target="#carControls3" data-bs-slide="next">
+                      <span class="ti-angle-right" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review ends -->
+
+    <!-- connect starts -->
+    <section class="connect">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <h1 class="w-h1 text-center" style="text-transform: capitalize;">Get Keys Please Rewards. Get Connected. </h1>
+            <p class="w-p text-center mb-3">Tap into the power of perks, points, and exclusive deals. All from Keys Please Rewards.</p>
+          </div>
+        </div>
+        <div class="row d-lg-block d-none">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <button type="button" class="btn btn-custom1 mt-4 px-5">view all</button>
+          </div>
+        </div>
+        <div class="row d-lg-none justify-content-center">
+          <div class="col-md-4 col-sm-5 col-9">
+            <button type="button" class="btn btn-custom1 mt-4 px-5" style="width: 100%;">view all</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- connect ends -->
+
+    <!-- service starts -->
+    <section class="service">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <h1 class="w-h1 s-h1 text-center">Services</h1>
+
+            <div class="row text-center">
+              <div class="col-md">
+                <i class="fas fa-wifi s-icon"></i>
+                <h2 class="s-h2 text-center">free wi-fi</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+              <div class="col-md">
+                <i class="fas fa-fan s-icon"></i>
+                <h2 class="s-h2 text-center">air conditioning</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+              <div class="col-md">
+                <i class="fas fa-shower s-icon"></i>
+                <h2 class="s-h2 text-center">private bathroom</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+              <div class="col-md">
+                <i class="fas fa-tv s-icon"></i>
+                <h2 class="s-h2 text-center">flat screen tv</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+            </div>
+
+            <div class="row text-center">
+              <div class="col-md">
+                <i class="fas fa-lock s-icon"></i>
+                <h2 class="s-h2 text-center">safe</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+              <div class="col-md">
+                <i class="fas fa-ice-cream s-icon"></i>
+                <h2 class="s-h2 text-center">refrigerator</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+              <div class="col-md">
+                <i class="fas fa-concierge-bell s-icon"></i>
+                <h2 class="s-h2 text-center">room service</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+              <div class="col-md">
+                <i class="fas fa-swimming-pool s-icon"></i>
+                <h2 class="s-h2 text-center">pool</h2>
+                <p class="w-p-2 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service ends -->
+
+    <!-- amenities starts -->
+    <section class="amenities">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <h1 class="w-h1 a-h1 text-center">Amenities</h1>
+
+            <div class="row d-lg-block d-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2">Highlights</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8 d-flex justify-content-between">
+                    <p class="car-p-2 a-bg rounded px-xl-3 px-2 py-1 a-p-2">Pool</p>
+                    <p class="car-p-2 a-bg rounded px-xl-3 px-2 py-1 a-p-2">Room Service</p>
+                    <p class="car-p-2 a-bg rounded px-xl-3 px-2 py-1 a-p-2">Restaurant</p>
+                    <p class="car-p-2 a-bg rounded px-xl-3 px-2 py-1 a-p-2">Lounge</p>
+                    <p class="car-p-2 a-bg rounded px-xl-3 px-2 py-1 a-p-2">Free Breakfast</p>
+                    <p class="car-p-2 a-bg rounded px-xl-3 px-2 py-1 a-p-2">Free WIFI</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-block d-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-3">
+                    <h2 class="s-h2 a-h2">About the property</h2>
+                  </div>
+                  <div class="offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p">Pets Allowed ( Dog / Pet Friendly )</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-block d-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2">Things to do</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p">Pool     |    Restaurant     |    Bar/Lounge     |    Hot Tub</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-block d-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2">Room types</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p">Kitchenette     |    Suites</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-block d-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2">Internet</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p">Free Internet     |    Free High Speed Internet ( WiFi )</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-block d-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2">Services</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p">Room Service     |    Shuttle Bus Service     |    Free Breakfast     |    Dry Cleaning     |    Meeting Rooms</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- md screen and below -->
+            <div class="row d-lg-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2 text-center">Highlights</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8 d-flex justify-content-sm-between">
+                    <p class="car-p-2 a-bg rounded px-md-3 px-1 py-1 a-p-2 d-sm-block d-none">Pool</p>
+                    <p class="car-p-2 a-bg rounded px-md-3 px-1 py-1 a-p-2 d-sm-block d-none">Room Service</p>
+                    <p class="car-p-2 a-bg rounded px-md-3 px-1 py-1 a-p-2 d-sm-block d-none">Restaurant</p>
+                    <p class="car-p-2 a-bg rounded px-md-3 px-1 py-1 a-p-2 d-sm-block d-none">Lounge</p>
+                    <p class="car-p-2 a-bg rounded px-md-3 px-1 py-1 a-p-2 d-sm-block d-none">Free Breakfast</p>
+                    <p class="car-p-2 a-bg rounded px-md-3 px-1 py-1 a-p-2 d-sm-block d-none">Free WIFI</p>
+                  </div>
+                  <div class="col-12 d-sm-none">
+                    <p class="w-p-2 a-p a-p-2 text-center d-sm-none">Pool     |    Room Service     |    Restaurant     |    Lounge     |    Free Breakfast     |    Free WIFI</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2 text-center">About the property</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p a-p-2 text-center">Pets Allowed ( Dog / Pet Friendly )</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2 text-center">Things to do</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p a-p-2 text-center">Pool     |    Restaurant     |    Bar/Lounge     |    Hot Tub</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2 text-center">Room types</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p a-p-2 text-center">Kitchenette     |    Suites</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2 text-center">Internet</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p a-p-2 text-center">Free Internet     |    Free High Speed Internet ( WiFi )</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-lg-none">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-xxl-2 col-lg-3">
+                    <h2 class="s-h2 a-h2 text-center">Services</h2>
+                  </div>
+                  <div class="offset-xxl-2 col-xxl-8 offset-lg-1 col-lg-8">
+                    <p class="w-p-2 a-p a-p-2 text-center">Room Service     |    Shuttle Bus Service     |    Free Breakfast     |    Dry Cleaning     |    Meeting Rooms</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- amenities ends -->
+
+    <!-- map starts -->
+    <section class="map">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 p-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.092314750006!2d91.97206371477046!3d21.42561618578471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adc94c76dddcef%3A0xc33b9080bca6a96f!2sAWT%20Resort!5e0!3m2!1sen!2sbd!4v1624241265439!5m2!1sen!2sbd" class="i-map" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- map ends -->
+
+    <!-- contact starts -->
+    <section class="contact d-md-block d-none">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <h1 class="w-h1 s-h1 a-h1 text-center">contact</h1>
+
+            <div class="row">
+
+              <div class="col-lg-3 col-md-4">
+
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <i class="fas fa-home c-icon"></i> 
+                      </div>
+                      <div class="offset-lg-1 col-md-9">
+                        <h2 class="c-h2">Kallyas</h2>
+                        <p class="w-p-2">467 Devonshire Drive Ravenna, OH 44266</p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <i class="fas fa-envelope c-icon"></i> 
+                      </div>
+                      <div class="offset-lg-1 col-md-9">
+                        <h2 class="c-h2">Email</h2>
+                        <p class="w-p-2">Hello@kallyas.com</p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <i class="fas fa-phone-alt c-icon"></i> 
+                      </div>
+                      <div class="offset-lg-1 col-md-9">
+                        <h2 class="c-h2">Customer Support</h2>
+                        <p class="w-p-2">01800 1800 1234</p>
+                      </div>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+
+              <div class="offset-lg-1 col-md-8">
+                <form class="row gx-3 gy-lg-4 gy-3">
+                  <div class="col-md-6">
+                    <input type="text" class="form-control c-form rounded" id="validationDefault01" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" class="form-control c-form rounded" id="validationDefault01" placeholder="Email" required>
+                  </div>
+                  <div class="col-md-12">
+                    <textarea class="form-control c-form rounded" id="validationTextarea" placeholder="Message" required></textarea>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-5 d-md-block d-none">
+                    <button type="button" class="btn btn-custom1 px-xl-5 px-3" style="width: 100%;">send message</button>
+                  </div> 
+                </form>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sm screen and below -->
+
+    <section class="contact d-md-none">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <h1 class="w-h1 s-h1 a-h1 text-center">contact</h1>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <div class="row mb-3 text-center">
+              <div class="col-12">
+                    <i class="fas fa-home c-icon mb-3"></i>
+                    <h2 class="c-h2 text-center">Kallyas</h2>
+                    <p class="w-p-2 text-center">467 Devonshire Drive Ravenna, OH 44266</p>
+              </div>
+              <div class="col-12">
+                    <i class="fas fa-envelope c-icon mb-3"></i>
+                    <h2 class="c-h2">Email</h2>
+                    <p class="w-p-2">Hello@kallyas.com</p>  
+              </div>
+              <div class="col-12">
+                    <i class="fas fa-phone-alt c-icon mb-3"></i>
+                    <h2 class="c-h2">Customer Support</h2>
+                    <p class="w-p-2">01800 1800 1234</p>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-11">
+              <form class="row gx-3 gy-lg-4 gy-3 justify-content-center">
+                <div class="col-12">
+                  <input type="text" class="form-control c-form rounded" id="validationDefault01" placeholder="Name" required>
+                </div>
+                <div class="col-12">
+                  <input type="email" class="form-control c-form rounded" id="validationDefault02" placeholder="Email" required>
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control c-form rounded" id="validationTextarea" placeholder="Message" required></textarea>
+                </div>
+                
+                <div class="col-sm-5 col-9">
+                  <button type="button" class="btn btn-custom1 px-xl-5 px-3" style="width: 100%;">send message</button>
+                </div> 
+              </form>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- sm screen and below -->
+              
+    <!-- contact ends -->
+
+    <!-- instagram starts -->
+    <section class="instagram">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-11 d-flex justify-content-center mb-3">
+            <img src="image/insta.png" class="img-fluid" alt="instagram">
+          </div>
+          <div class="col-11">
+            <p class="ins-p text-center">Check out some pictures from our instagram page <a href="#">@luxuryresort</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- instagram starts -->
+
+    <!-- footer starts -->
+    <footer>
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-5 col-sm-6 col-11">
+            <h2 class="f-h2 text-center mb-4">Follow Us:</h2>
+
+            <div class="row justify-content-between mb-5">
+              <div class="col">
+                <i class="fab fa-facebook-f d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-twitter d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-instagram d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-linkedin-in d-flex justify-content-center f-icon"></i>
+              </div>
+              <div class="col">
+                <i class="fab fa-pinterest-p d-flex justify-content-center f-icon"></i>
+              </div>
+            </div>
+
+            <p class="f-p text-center">Copyright © 2021 | All rights reserved.</p>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- footer ends -->
+    
+
+  <!-- JS -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+
+  <script src="assets/gijgo/gijgo.min.js"></script> <!-- datepicker --> 
+
+  <script src="assets/hamburger-menu/hamburger-menu.js"></script>
+  <script src="assets/wow/wow.min.js"></script>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  
+</body>
+</html> 

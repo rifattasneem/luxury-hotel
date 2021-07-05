@@ -1,0 +1,1105 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header*/
+	.logo{
+	  padding: 11px 25px 11px 10px;
+	}
+	.phone{
+	  padding: 18px 25px 14px;
+	  top: 35px;
+	  border-right: none;
+	}
+
+	.hamburger-button {
+	  padding: 14px 10px;
+	  top: 11px;
+	  right: 4px;
+	}
+	/*header*/
+
+	/*banner*/
+	.b-margin {
+	  margin-top: 9px;
+	}
+	.car-item1, .car-item2, .car-item3, .car-item4{
+	  padding: 100px 0;
+	}
+	.car-h1{
+	  font-size: 32px;
+	  letter-spacing: 5px;
+	}
+	.car-p{
+	  font-size: 14px;
+	}
+	/*banner*/
+
+	/*booking*/
+	.booking{
+	  padding: 30px 30px;
+	}
+
+	.b-p{
+	  margin: 10px 0 5px;
+	  font-size: 13px;
+	}
+	.sm-bp{
+	  margin-top: 20px; 
+	}
+
+	.ui-selectmenu-text{
+	  font-size: 14px;
+	}
+
+	#datepicker1,#datepicker2,.controlgroup{
+	  width: 100% !important;
+	}
+
+	#person-menu{
+	  width: 100% !important;
+	}
+
+	.btn-custom1{
+	  margin-top: 20px; 
+	  padding: 10px 35px;
+	  width: 100%;
+	  font-size: 13px;
+	}
+	.btn-custom1:hover{
+	  color: #ffffff;
+	}
+	.btn-custom1:focus{
+	  padding: 10px 35px;
+	  
+	}
+	/*booking*/
+
+	/*welcome*/
+	.welcome{
+	  margin: 60px 0 50px; 
+	}
+	.w-h1{ 
+	  font-size: 22px;
+	}
+	.w-p{
+	  margin-bottom:60px;
+	  font-size: 14px;
+	}
+
+	.w-h2{
+	  font-size: 13px;
+	}
+	.w-p-2{
+	  font-size: 13px;
+	  margin-bottom: 30px;
+	}
+	.w-icon{
+	  margin-bottom: 10px;
+	  font-size: 30px;
+	}
+	/*welcome*/
+
+	/*gallery*/
+	.g-photos{
+	  padding: 40px 0;
+	}
+	.th-icon{
+	  font-size: 20px;
+	}
+
+	.g-h2{  
+	  font-size: 18px;
+	  text-align: center;
+	}
+	.g-p-2{
+	  text-align: center;  
+	}
+	.btn-custom2{
+	  font-size: 13px;
+	}
+	/*gallery*/
+
+	/*video*/
+	.video-sec{
+	  margin: 60px 0;  
+	}
+	.v-h1{
+	  margin-bottom: 18px;
+	  font-size: 28px;
+	  line-height: 40px; 
+      text-align: center;  
+	}
+	.v-h3{
+	  margin-bottom: 20px;
+	  font-size: 15px;
+	  line-height: 22px; 
+	  text-align: center;
+	}
+	.v-p{
+	  text-align:center; 
+	}
+	.video{ 
+	  margin-top: 35px;
+	  height: 155px;
+	}
+	/*video*/
+
+	/*review*/
+	.review{
+	  padding: 100px 0;
+
+	}
+	.px-35p{
+	  padding-left: 18px;
+	  padding-right: 18px; 
+	}
+
+	.car-h2{
+	  font-size: 15px;
+	}
+	.car-p-2{
+	  font-size: 13px;
+	}
+	/*review*/
+
+	/*connect*/
+	.connect{
+	  padding: 100px 0;
+	}
+	/*connect*/
+
+	/*service*/
+	.service{
+	  padding: 60px 0;
+	}
+	.s-h1{
+	  margin-bottom: 50px; 
+	}
+	.s-icon{
+	  margin:0px 0 20px;
+	  font-size: 30px; 
+	}
+	.s-h2{
+	  font-size: 13px; 
+	}
+	/*service*/
+
+	/*amenities*/
+	.amenities{
+	  padding: 60px 0;
+	}
+	.a-h1{
+	  margin-bottom: 45px; 
+	}
+	.a-h2{
+	  margin-bottom: 15px; 
+	}
+	.a-p-2{
+	  margin-bottom: 30px; 
+	}
+	/*amenities*/
+
+	/*map*/
+	.i-map{
+	  min-height: 300px; 
+	}
+	/*map*/
+
+	/*contact*/
+	.contact{
+	  padding: 60px 0;
+	}
+	.c-icon{
+	  font-size: 18px; 
+	}
+	.c-h2{
+	  font-size: 13px;
+	}
+	.c-form{
+	  padding: 10px 20px; 
+	  font-size: 13px; 
+	}
+	textarea{
+	  height: 150px;
+	}
+	/*contact*/
+
+	/*instagram*/
+	.instagram{
+	  padding: 60px 0;
+	}
+	.ins-p, .ins-p a{
+	  font-size: 14px;
+	}
+	/*instagram*/
+
+	/*cart page*/
+	.custom-cont {
+	    max-width: 100%;
+	}
+	/*cart page*/
+
+	/*checkout page*/
+	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
+	  padding: 10px;
+	  border: 1px solid #939393;
+	}
+	/*checkout page*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header*/
+	.logo{
+	  padding: 11px 25px 11px 10px;
+	}
+	.phone{
+	  padding: 18px 25px 14px;
+	}
+
+	.hamburger-button {
+	  padding: 14px 10px;
+	  top: 11px;
+	}
+	/*header*/
+
+	/*banner*/
+	.b-margin {
+	  margin-top: 9px;
+	}
+	.car-item1, .car-item2, .car-item3, .car-item4{
+	  padding: 140px 0;
+	}
+	.car-h1{
+	  font-size: 40px;
+	  letter-spacing: 10px;
+	}
+	.car-p{
+	  font-size: 16px;
+	}
+	/*banner*/
+
+	/*booking*/
+	.booking{
+	  padding: 30px 60px;
+	}
+
+	.b-p{
+	  margin: 10px 0 5px;
+	  font-size: 13px;
+	}
+	.ui-selectmenu-text{
+	  font-size: 14px;
+	}
+
+	#datepicker1,#datepicker2,.controlgroup{
+	  width: 11em;
+	}
+
+	#person-menu{
+	  width: 11em !important;
+	}
+
+	.btn-custom1{
+	  margin-top: 20px; 
+	  padding: 10px 35px;
+	  font-size: 13px;
+	}
+	.btn-custom1:hover{
+	  color: #ffffff;
+	}
+	.btn-custom1:focus{
+	  padding: 10px 35px;
+	  
+	}
+	/*booking*/
+
+	/*welcome*/
+	.welcome{
+	  margin: 60px 0 50px; 
+	}
+	.w-h1{ 
+	  font-size: 23px;
+	}
+	.w-p{
+	  margin-bottom:60px;
+	  font-size: 15px;
+	}
+
+	.w-h2{
+	  font-size: 13px;
+	}
+	.w-p-2{
+	  font-size: 13px;
+	  margin-bottom: 30px;
+	}
+	.w-icon{
+	  margin-bottom: 10px;
+	  font-size: 30px;
+	}
+	/*welcome*/
+
+	/*gallery*/
+	.g-photos{
+	  padding: 55px 0;
+	}
+	.th-icon{
+	  font-size: 20px;
+	}
+
+	.g-h2{  
+	  font-size: 19px;
+	  text-align: center;
+	}
+	.g-p-2{
+	  text-align: center;  
+	}
+	.btn-custom2{
+	  font-size: 13px;
+	}
+	/*gallery*/
+
+	/*video*/
+	.video-sec{
+	  margin: 60px 0;  
+	}
+	.v-h1{
+	  margin-bottom: 18px;
+	  font-size: 30px;
+	  line-height: 40px; 
+      text-align: center;  
+	}
+	.v-h3{
+	  margin-bottom: 20px;
+	  font-size: 15px;
+	  line-height: 22px; 
+	  text-align: center;
+	}
+	.v-p{
+		text-align:center; 
+	}
+	.video{ 
+	  margin-top: 35px;
+	  height: 265px;
+	}
+	/*video*/
+
+	/*review*/
+	.review{
+	  padding: 100px 0;
+	}
+	.px-35p{
+	  padding-left: 12px;
+	  padding-right: 12px; 
+	}
+
+	.car-h2{
+	  font-size: 15px;
+	}
+	.car-p-2{
+	  font-size: 13px;
+	}
+	/*review*/
+
+	/*connect*/
+	.connect{
+	  padding: 100px 0;
+	}
+	/*connect*/
+
+	/*service*/
+	.service{
+	  padding: 60px 0;
+	}
+	.s-h1{
+	  margin-bottom: 50px; 
+	}
+	.s-icon{
+	  margin:0px 0 20px;
+	  font-size: 30px; 
+	}
+	.s-h2{
+	  font-size: 13px; 
+	}
+	/*service*/
+
+	/*amenities*/
+	.amenities{
+	  padding: 60px 0;
+	}
+	.a-h1{
+	  margin-bottom: 45px; 
+	}
+	.a-h2{
+	  margin-bottom: 15px; 
+	}
+	.a-p-2{
+	  margin-bottom: 30px; 
+	}
+	/*amenities*/
+
+	/*map*/
+	.i-map{
+	  min-height: 350px; 
+	}
+	/*map*/
+
+	/*contact*/
+	.contact{
+	  padding: 60px 0;
+	}
+	.c-icon{
+	  font-size: 18px; 
+	}
+	.c-h2{
+	  font-size: 13px;
+	}
+	.c-form{
+	  padding: 10px 20px; 
+	  font-size: 13px; 
+	}
+	textarea{
+	  height: 160px;
+	}
+	/*contact*/
+
+	/*instagram*/
+	.instagram{
+	  padding: 60px 0;
+	}
+	.ins-p, .ins-p a{
+	  font-size: 15px;
+	}
+	/*instagram*/
+
+	/*cart page*/
+	.custom-cont {
+	    max-width: 100%;
+	}
+	/*cart page*/
+
+	/*checkout page*/
+	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
+	  padding: 10px;
+	  border: 1px solid #939393;
+	}
+	/*checkout page*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header*/
+	.logo{
+	  padding: 11px 25px 11px 10px;
+	}
+	.phone{
+	  padding: 18px 25px 14px;
+	}
+
+	.hamburger-button {
+	  padding: 14px 10px;
+	  top: 11px;
+	}
+	/*header*/
+
+	/*banner*/
+	.b-margin {
+	  margin-top: 9px;
+	}
+	.car-item1, .car-item2, .car-item3, .car-item4{
+	  padding: 160px 0;
+	}
+	.car-h1{
+	  font-size: 48px;
+	  letter-spacing: 10px;
+	}
+	.car-p{
+	  font-size: 18px;
+	}
+	/*banner*/
+
+	/*booking*/
+	.booking{
+	  padding: 30px 60px;
+	}
+
+	.b-p{
+	  margin: 10px 0 5px;
+	  font-size: 13px;
+	}
+	.ui-selectmenu-text{
+	  font-size: 15px;
+	}
+
+	#datepicker1,#datepicker2,.controlgroup{
+	  width: 13em;
+	}
+
+	#person-menu{
+	  width: 13em !important;
+	}
+
+	.btn-custom1{
+	  margin-top: 20px; 
+	  padding: 10px 35px;
+	  font-size: 13px;
+	}
+	.btn-custom1:hover{
+	  color: #ffffff;
+	}
+	.btn-custom1:focus{
+	  padding: 10px 35px;
+	  
+	}
+	/*booking*/
+
+	/*welcome*/
+	.welcome{
+	  margin: 60px 0 50px; 
+	}
+	.w-h1{ 
+	  font-size: 25px;
+	}
+	.w-p{
+	  margin-bottom:60px;
+	  font-size: 16px;
+	}
+
+	.w-h2{
+	  font-size: 13px;
+	}
+	.w-p-2{
+	  font-size: 13px;
+	}
+	.w-icon{
+	  margin-bottom: 10px;
+	  font-size: 30px;
+	}
+	/*welcome*/
+
+	/*gallery*/
+	.g-photos{
+	  padding: 55px 0;
+	}
+	.th-icon{
+	  font-size: 23px;
+	}
+
+	.g-h2{  
+	  font-size: 19px;
+	}
+	.btn-custom2{
+	  font-size: 13px;
+	}
+	/*gallery*/
+
+	/*video*/
+	.video-sec{
+	  margin: 60px 0;  
+	}
+	.v-h1{
+	  margin-bottom: 18px;
+	  font-size: 30px; 
+      text-align: center;  
+	}
+	.v-h3{
+	  margin-bottom: 20px;
+	  font-size: 15px;
+	  line-height: 22px; 
+	  text-align: center;
+	}
+	.v-p{
+	  text-align:center; 
+	}
+	.video{ 
+	  margin-top: 35px;
+	  height: 360px;
+	}
+	/*video*/
+
+	/*review*/
+	.review{
+	  padding: 110px 0;
+	}
+	.px-35p{
+	  padding-left: 10px;
+	  padding-right: 10px; 
+	}
+
+	.car-h2{
+	  font-size: 15px;
+	}
+	.car-p-2{
+	  font-size: 13px;
+	}
+	/*review*/
+
+	/*connect*/
+	.connect{
+	  padding: 110px 0;
+	}
+	/*connect*/
+
+	/*service*/
+	.service{
+	  padding: 60px 0;
+	}
+	.s-icon{
+	  margin:40px 0 20px;
+	  font-size: 30px; 
+	}
+	.s-h2{
+	  font-size: 13px; 
+	}
+	/*service*/
+
+	/*amenities*/
+	.amenities{
+	  padding: 60px 0;
+	}
+	.a-h1{
+	  margin-bottom: 45px; 
+	}
+	.a-h2{
+	  margin-bottom: 15px; 
+	}
+	.a-p-2{
+	  margin-bottom: 30px; 
+	}
+	/*amenities*/
+
+	/*map*/
+	.i-map{
+	  min-height: 400px; 
+	}
+	/*map*/
+
+	/*contact*/
+	.contact{
+	  padding: 60px 0;
+	}
+	.c-icon{
+	  font-size: 18px; 
+	}
+	.c-h2{
+	  font-size: 13px;
+	}
+	.c-form{
+	  padding: 10px 20px; 
+	  font-size: 13px; 
+	}
+	textarea{
+	  height: 160px;
+	}
+	/*contact*/
+
+	/*instagram*/
+	.instagram{
+	  padding: 60px 0;
+	}
+	.ins-p, .ins-p a{
+	  font-size: 16px;
+	}
+	/*instagram*/
+
+	/*cart page*/
+	.custom-cont {
+	    max-width: 100%;
+	}
+	/*cart page*/
+
+	/*checkout page*/
+	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
+	  padding: 10px;
+	  border: 1px solid #939393;
+	}
+	/*checkout page*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*header*/
+	.logo{
+	  padding: 13px 30px 13px 10px;
+	}
+	.phone{
+	  padding: 20px 30px 16px;
+	}
+
+	.hamburger-button {
+	  padding: 14px 10px;
+	  top: 13px;
+	}
+	/*header*/
+
+	/*banner*/
+	.b-margin {
+	  margin-top: 12px;
+	}
+	.car-item1, .car-item2, .car-item3, .car-item4{
+	  padding: 180px 0;
+	}
+	.car-h1{
+	  font-size: 50px;
+	}
+	.car-p{
+	  font-size: 20px;
+	}
+	/*banner*/
+
+	/*booking*/
+	.booking{
+	  padding: 30px 60px;
+	}
+
+	.b-p{
+	  font-size: 13px;
+	}
+	.ui-selectmenu-text{
+	  font-size: 15px;
+	}
+
+	#datepicker1,#datepicker2,.controlgroup{
+	  width: 7em;
+	}
+
+	.form-control {
+	  padding: 0.95px;
+	}
+
+	#person-menu{
+	  width: 7em !important;
+	}
+
+	.btn-custom1 {
+	  padding: 10px 15px;
+	  font-size: 12px;
+	}
+	.btn-custom1:hover{
+	  color: #ffffff;
+	}
+	/*booking*/
+
+	/*welcome*/
+	.welcome {
+	  margin: 70px 0 60px;
+	}
+	.w-h1{ 
+	  font-size: 28px;
+	}
+	.w-p{
+	  margin-bottom: 70px;
+	  font-size: 17px;
+	}
+
+	.w-h2{
+	  font-size: 14px;
+	}
+	.w-p-2{
+	  font-size: 13px;
+	}
+	.w-icon{
+	  font-size: 35px;
+	}
+	/*welcome*/
+
+	/*gallery*/
+	.g-photos{
+	  padding: 70px 0;
+	}
+	.th-icon{
+	  font-size: 25px;
+	}
+	.g-h2{  
+	  font-size: 22px;
+	}
+	.btn-custom2{
+	  font-size: 12px;
+	}
+	/*gallery*/
+
+	/*video*/
+	.video-sec{
+	  margin: 70px 0;  
+	}
+	.v-h1{
+	  margin-bottom: 20px;
+	  font-size: 32px; 
+      line-height: 47px;   
+	}
+	.v-h3{
+	  margin-bottom: 20px;
+	  font-size: 15px;
+	  line-height: 22px; 
+	}
+	.video{ 
+	  height: 425px;
+	}
+	/*video*/
+
+	/*review*/
+	.review{
+	  padding: 120px 0;
+	}
+
+	.car-h2{
+	  font-size: 15px;
+	}
+	.car-p-2{
+	  font-size: 13px;
+	}
+	/*review*/
+
+	/*connect*/
+	.connect{
+	  padding: 120px 0;
+	}
+	/*connect*/
+
+	/*service*/
+	.service{
+	  padding: 70px 0;
+	}
+	.s-icon{
+	  margin:40px 0 20px;
+	  font-size: 35px; 
+	}
+	.s-h2{
+	  font-size: 13px; 
+	}
+	/*service*/
+
+	/*amenities*/
+	.amenities{
+	  padding: 70px 0;
+	}
+	.a-h1{
+	  margin-bottom: 50px; 
+	}
+	/*amenities*/
+
+	/*map*/
+	.i-map{
+	  min-height: 450px; 
+	}
+	/*map*/
+
+	/*contact*/
+	.contact{
+	  padding: 70px 0;
+	}
+	.c-icon{
+	  font-size: 16px; 
+	}
+	.c-h2{
+	  font-size: 13px;
+	}
+	.c-form{
+	  padding: 13px 23px; 
+	  font-size: 13px; 
+	}
+	/*contact*/
+
+	/*instagram*/
+	.instagram{
+	  padding: 70px 0;
+	}
+	.ins-p, .ins-p a{
+	  font-size: 17px;
+	}
+	/*instagram*/
+
+	/*checkout page*/
+	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
+	  padding: 10px;
+	  border: 1px solid #939393;
+	}
+	/*checkout page*/
+}
+
+/*Extra large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*header*/
+	.logo{
+	  padding: 13px 30px 13px 10px;
+	}
+	.phone{
+	  padding: 20px 30px 16px;
+	}
+
+	.hamburger-button {
+	  padding: 14px 10px;
+	  top: 13px;
+	}
+	/*header*/
+
+	/*banner*/
+	.b-margin {
+	  margin-top: 12px;
+	}
+	.car-item1, .car-item2, .car-item3, .car-item4{
+	  padding: 200px 0;
+	}
+	.car-h1{
+	  font-size: 62px;
+	}
+	.car-p{
+	  font-size: 22px;
+	}
+	/*banner*/
+
+	/*booking*/
+	.booking{
+	  padding: 30px 60px;
+	}
+
+	.b-p{
+	  font-size: 13px;
+	}
+	.ui-selectmenu-text{
+	  font-size: 15px;
+	}
+
+	#datepicker1,#datepicker2,.controlgroup{
+	  width: 9em;
+	}
+
+	.form-control {
+	  padding: 0.8px;
+	}
+
+	#person-menu{
+	  width: 9em !important;
+	}
+
+	.btn-custom1 {
+	  padding: 11px 13px;
+	  font-size: 13px;
+	}
+	.btn-custom1:hover{
+	  color: #ffffff;
+	}
+	/*booking*/
+
+	/*welcome*/
+	.welcome {
+	  margin: 70px 0 60px;
+	}
+	.w-h1{ 
+	  font-size: 28px;
+	}
+	.w-p{
+	  margin-bottom: 70px;
+	  font-size: 17px;
+	}
+
+	.w-h2{
+	  font-size: 14px;
+	}
+	.w-p-2{
+	  font-size: 14px;
+	}
+	.w-icon{
+	  font-size: 35px;
+	}
+	/*welcome*/
+
+	/*gallery*/
+	.btn-custom2{
+	  font-size: 13px;
+	}
+	.th-icon{
+	  font-size: 25px;
+	}
+	/*gallery*/
+
+	/*video*/
+	.video-sec{
+	  margin: 70px 0;  
+	}
+	.v-h1{
+	  margin-bottom: 20px;
+	  font-size: 38px;
+	  line-height: 50px;
+	}
+	.v-h3{
+	  margin-bottom: 20px;
+	  font-size: 17px;
+	}
+	.video{ 
+	  height: 475px;
+	}
+	/*video*/
+
+	/*review*/
+	.review{
+	  padding: 130px 0;
+	}
+
+	.car-h2{
+	  font-size: 17px;
+	}
+	/*review*/
+
+	/*connect*/
+	.connect{
+	  padding: 130px 0;
+	}
+	/*connect*/
+
+	/*service*/
+	.service{
+	  padding: 70px 0;
+	}
+	.s-icon{
+	  font-size: 35px; 
+	}
+	/*service*/
+
+	/*amenities*/
+	.amenities{
+	  padding: 70px 0;
+	}
+	.a-p-2{
+	  margin-bottom: 32px; 
+	}
+	/*amenities*/
+
+	/*contact*/
+	.contact{
+	  padding: 70px 0;
+	}
+	.c-icon{
+	  font-size: 18px; 
+	}
+
+	.c-form{
+	  padding: 13px 23px; 
+	}
+	/*contact*/
+
+	/*instagram*/
+	.instagram{
+	  padding: 70px 0;
+	}
+	.ins-p, .ins-p a{
+	  font-size: 17px;
+	}
+	/*instagram*/
+
+	/*checkout page*/
+	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
+	  padding: 10px;
+	  border: 1px solid #939393;
+	}
+	/*checkout page*/
+
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px){
+
+	.a-p-2{
+	  margin-bottom: 32px; 
+	}
+	
+}
