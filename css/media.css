@@ -15,6 +15,9 @@
 	  top: 11px;
 	  right: 4px;
 	}
+	.hamburger-nav ul li a{
+	  font-size: 14px;
+	}
 	/*header*/
 
 	/*banner*/
@@ -236,12 +239,20 @@
 	.custom-cont {
 	    max-width: 100%;
 	}
+	.c-h1{
+	  font-size: 30px; 
+	}
+	.cart {
+	    margin: 35px 0;
+	}
+	.btn-custom-cart{
+		font-size: 13px; 
+	}
 	/*cart page*/
 
 	/*checkout page*/
 	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
 	  padding: 10px;
-	  border: 1px solid #939393;
 	}
 	/*checkout page*/
 }
@@ -259,6 +270,9 @@
 	.hamburger-button {
 	  padding: 14px 10px;
 	  top: 11px;
+	}
+	.hamburger-nav ul li a{
+	  font-size: 16px;
 	}
 	/*header*/
 
@@ -475,12 +489,20 @@
 	.custom-cont {
 	    max-width: 100%;
 	}
+	.c-h1{
+	  font-size: 30px; 
+	}
+	.cart {
+	    margin: 35px 0;
+	}
+	.btn-custom-cart{
+		font-size: 13px; 
+	}
 	/*cart page*/
 
 	/*checkout page*/
 	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
 	  padding: 10px;
-	  border: 1px solid #939393;
 	}
 	/*checkout page*/
 }
@@ -498,6 +520,9 @@
 	.hamburger-button {
 	  padding: 14px 10px;
 	  top: 11px;
+	}
+	.hamburger-nav ul li a{
+	  font-size: 16px;
 	}
 	/*header*/
 
@@ -705,12 +730,20 @@
 	.custom-cont {
 	    max-width: 100%;
 	}
+	.c-h1{
+	  font-size: 30px; 
+	}
+	.cart {
+	    margin: 35px 0;
+	}
+	.btn-custom-cart{
+		font-size: 13px; 
+	}
 	/*cart page*/
 
 	/*checkout page*/
 	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
 	  padding: 10px;
-	  border: 1px solid #939393;
 	}
 	/*checkout page*/
 }
@@ -728,6 +761,9 @@
 	.hamburger-button {
 	  padding: 14px 10px;
 	  top: 13px;
+	}
+	.hamburger-nav ul li a{
+	  font-size: 17px;
 	}
 	/*header*/
 
@@ -906,12 +942,14 @@
 	.ins-p, .ins-p a{
 	  font-size: 17px;
 	}
+	.btn-custom-cart{
+		font-size: 13px; 
+	}
 	/*instagram*/
 
 	/*checkout page*/
 	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
 	  padding: 10px;
-	  border: 1px solid #939393;
 	}
 	/*checkout page*/
 }
@@ -929,6 +967,9 @@
 	.hamburger-button {
 	  padding: 14px 10px;
 	  top: 13px;
+	}
+	.hamburger-nav ul li a{
+	  font-size: 17px;
 	}
 	/*header*/
 
@@ -1089,7 +1130,6 @@
 	/*checkout page*/
 	.f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
 	  padding: 10px;
-	  border: 1px solid #939393;
 	}
 	/*checkout page*/
 
