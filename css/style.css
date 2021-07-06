@@ -141,6 +141,23 @@ header {
   border-bottom: 1px solid black;
 }
 
+/*mc-calender*/
+
+.mc-table__weekday {
+    color: #7c82ed;
+}
+.mc-btn--danger {
+    color: #46c8d6;
+}
+.mc-btn--success {
+    color: #46c8d6;
+}
+.mc-picker {
+    background-color: #ffffff;
+}
+
+/*mc-calender*/
+
 .input-group > .form-control, .input-group > .form-select {
   flex: 0 0 auto;
 }
@@ -182,6 +199,14 @@ header {
 #person-menu{
   width: 10em !important;
 }
+
+/*person menu*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: none;
+    background-image: linear-gradient(to right, #7c82ed, #46c8d6);
+}
+/*person menu*/
+
 
 .btn-custom1{
   padding: 10px 28px;
@@ -565,16 +590,15 @@ footer{
   font-size: 35px;
   text-transform: uppercase; 
 }
-table{
+
+.c-table{
   width: 100%; 
 }
-table, th, td {
-  text-align: center; 
-  border: 0.3px solid #939393;
-  border-collapse: collapse;
+.c-table, .c-th, .c-td {
+  text-align: center;
 }
-th,td{
-  padding: 20px;
+.c-th, .c-td{
+  padding: 20px !important;
 }
 
 .close{
@@ -607,5 +631,4 @@ th,td{
 
 .f-name, .l-name, .address, .city, .state, .p-code, .country, .email, .p-number, .add-text{
   padding: 10px;
-  border: 1px solid #939393;
 }
