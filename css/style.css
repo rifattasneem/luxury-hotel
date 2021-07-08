@@ -41,7 +41,7 @@ header {
   right: 12px;
 }
 .hamburger-nav {
-      left: 8px;
+  left: 0px;
   height: 100%;
 }
 .hamburger-nav ul {
