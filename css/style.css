@@ -41,6 +41,7 @@ header {
   right: 12px;
 }
 .hamburger-nav {
+  top: -2000px;
   left: 0px;
   height: 100%;
 }
